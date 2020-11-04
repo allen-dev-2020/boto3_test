@@ -1,6 +1,6 @@
-###
-# Sample for S3 bucket access
-###
+#############################
+#Sample for S3 bucket access#
+#############################
 s3 = boto3.resource(
     service_name='s3',
     region_name='us-east-2',
