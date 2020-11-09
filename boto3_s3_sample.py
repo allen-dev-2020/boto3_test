@@ -1,8 +1,8 @@
 #############################
 #Sample for S3 bucket access#
 #############################
-mykey = "AKIAQH7JYYNITD5K2FFA"
-mysecretkey = "+aFPzML3TXA7TF7tzpqQZ0wqPeRwv92vqk4JuQlm"
+mykey = "key"
+mysecretkey = "secret_key"
 
 s3 = boto3.resource(
     service_name='s3',
